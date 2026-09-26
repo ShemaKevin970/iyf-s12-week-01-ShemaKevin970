@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Shema Kevin</title>
+</head>
+<body>
+<header>
+<a href="/">My Site</a>
+<nav>
+<a href="/">Home</a>
+<a href="#">About</a>
+<a href="#" aria-current="page">Contact</a>
+</nav>
+</header>
+<main>
+<h1>Contact Us</h1>
+<form action="#" method="post">
+<fieldset>
+<legend>About you</legend>
+<div>
+<label for="fullname">Full name</label>
+<input type="text" id="fullname" name="fullname" required placeholder="e.g. Amina Otieno">
+</div>
+<div>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+</div>
+<div>
+<label for="phone">Phone</label>
+<input type="tel" id="phone" name="phone">
+</div>
+</fieldset>
+<fieldset>
+<legend>Your message</legend>
+<div>
+<label for="subject">Subject</label>
+<select id="subject" name="subject" required>
+<option value="">Choose a subject</option>
+<option value="general">General Inquiry</option>
+<option value="support">Support Request</option>
+</select>
+</div>
+<div>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" required minlength="50"></textarea>
+</div>
+<div>
+<input type="checkbox" id="newsletter" name="newsletter">
+<label for="newsletter">Subscribe to newsletter</label>
+</div>
+</fieldset>
+<button type="submit">Send message</button>
+</form>
+</main>
+<footer>
+<small>&copy; 2026</small>
+</footer>
+</body>
+</html>
