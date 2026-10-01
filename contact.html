@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Shema Kevin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Shema Kevin - 1008</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html" aria-current="page">Contact</a>
+</nav>
+</header>
+<main>
+<h1>Contact Me</h1>
+<form action="#" method="post">
+<fieldset>
+<legend>About you</legend>
+<div>
+<label for="fullname">Full name</label>
+<input type="text" id="fullname" name="fullname" required placeholder="Shema Kevin">
+</div>
+<div>
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required placeholder="kevinshema970@gmail.com">
+</div>
+<div>
+<label for="phone">Phone</label>
+<input type="tel" id="phone" name="phone" placeholder="07XXXXXXXX">
+</div>
+</fieldset>
+<fieldset>
+<legend>Your message</legend>
+<div>
+<label for="subject">Subject</label>
+<select id="subject" name="subject" required>
+<option value="">Choose a subject</option>
+<option value="general">General Inquiry</option>
+<option value="support">Support Request</option>
+<option value="collab">Collaboration</option>
+</select>
+</div>
+<div>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" required minlength="20" placeholder="Write your message here..."></textarea>
+</div>
+<div>
+<input type="checkbox" id="newsletter" name="newsletter">
+<label for="newsletter">Subscribe to newsletter</label>
+</div>
+</fieldset>
+<button type="submit">Send message</button>
+</form>
+</main>
+<footer>
+<small>&copy; 2026 Shema Kevin - S12 - 1008</small>
+</footer>
+</body>
+</html>
